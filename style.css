@@ -1,0 +1,32 @@
+section {
+  z-index: 2;
+  position: relative;
+}
+
+.carExperience {
+    height: 550px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 1200px) {
+  .carExperience {
+      height: 600px;
+      justify-content: flex-start;
+  }
+  .card-body {
+    justify-content: space-between;
+  }
+}
